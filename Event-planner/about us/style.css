@@ -1,0 +1,74 @@
+/* Basic styling for the Learn More section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ebdbc8;
+}
+
+/*  */
+
+main {
+    padding: 20px;
+}
+
+#learn-more {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#learn-more h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.learn-more-content {
+    margin-top: 20px;
+}
+
+.learn-more-content h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.learn-more-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-content ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+}

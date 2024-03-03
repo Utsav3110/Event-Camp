@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="login-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <form class="md-float-material form-material" action="#" method="POST" id="form">
+                        <div class="auth-box card">
+                            <div class="card-block">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h1 class="text-center heading" >Sign up</h1>
+                                        
+                                    </div>
+                                </div>
+                                <div class="form-group form-primary">
+                                 
+                                     <input type="text" class="form-control" name="first_name" value="" placeholder="Your Name" id="first_name"> 
+                                </div>
+    
+                                <div class="form-group form-primary">
+                                    <input type="text" class="form-control" name="email" value="" placeholder="Email" id="email">
+                                   
+                                </div>
+    
+                                <div class="form-group form-primary">
+                                   <input type="password" class="form-control" name="password" placeholder="Password" value="" id="password">
+                                  
+                                </div>
+    
+                                <div class="form-group form-primary">
+                                    <input type="password" class="form-control" name="password_confirm" placeholder="Repeat password" value="" id="password_confirm">
+                                    
+                                </div>
+    
+    
+                                <div class="row">
+                                    <div class="col-md-12">
+    
+                                        <input type="submit" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20" name="submit" value="Sign In">
+                                       <!--  <button type="button" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20"><i class="fa fa-lock"></i> Signup Now </button> -->
+                                    </div>
+                                </div>
+    
+                                <div class="or-container"><div class="line-separator"></div> <div class="or-label">or</div><div class="line-separator"></div></div>
+    
+    
+                                <div class="row">
+                                    <div class="col-md-12">
+                                      <a class="btn btn-lg btn-google btn-block text-uppercase btn-outline" href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png"> Signup Using Google</a>
+    
+                                    </div>
+                                </div>
+                                <br>
+    
+                                <p class="text-inverse text-center">Already have an account? <a href="..\Login\login.html" data-abc="true">Login</a></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    
+    <script src="./main.js"></script>
+
+
+
+
+    
+</body>
+</html>
